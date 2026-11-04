@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: quiz
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/quizdb
+    username: yashas
+    password: kjm40329
+
+  jpa:
+    hibernate:
+      ddl-auto: update
